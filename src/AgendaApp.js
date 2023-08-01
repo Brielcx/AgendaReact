@@ -34,8 +34,9 @@ const AgendaApp = () => {
   return (
     <div>
       <h1>Agenda de Contactos</h1>
+      <ContactList contacts={contacts} />  
       <AddContactForm onAddContact={handleAddContact} />
-      <ContactList contacts={contacts} />
+      
     </div>
   );
 };
